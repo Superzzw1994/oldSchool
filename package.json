@@ -16,5 +16,11 @@
   "bugs": {
     "url": "https://github.com/Superzzw1994/oldSchool/issues"
   },
-  "homepage": "https://github.com/Superzzw1994/oldSchool#readme"
+  "homepage": "https://github.com/Superzzw1994/oldSchool#readme",
+  "devDependencies": {
+    "awesome-typescript-loader": "^5.2.1",
+    "typescript": "^3.5.3",
+    "webpack": "^4.39.2",
+    "webpack-cli": "^3.3.7"
+  }
 }
