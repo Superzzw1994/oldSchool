@@ -1,0 +1,20 @@
+{
+  "name": "oldSchool",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Superzzw1994/oldSchool.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Superzzw1994/oldSchool/issues"
+  },
+  "homepage": "https://github.com/Superzzw1994/oldSchool#readme"
+}
