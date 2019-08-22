@@ -10,6 +10,9 @@ module.exports = {
     library: 'agressIf',
     libraryTarget: 'umd'
   },
+  resolve: {
+    extensions: ['.ts', '.tsx', '.js', '.jsx']
+  },
   module: {
     rules: [
       {
@@ -21,5 +24,19 @@ module.exports = {
   },
   plugins: [new htmlWebpackPlugin({
     template: './index.html'
-  })]
+  })],
+  externals: {
+    'react': {
+      commonjs: 'react',
+      commonjs2: 'react',
+      amd: 'react',
+      root: 'react'
+    },
+    'react-dom': {
+      commonjs: 'react-dom',
+      commonjs2: 'react-dom',
+      amd: 'react-dom',
+      root: 'react-dom'
+    }
+  }
 }
