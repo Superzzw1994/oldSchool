@@ -14,5 +14,9 @@
     "strict": true,
     "moduleResolution": "node",
     "esModuleInterop": true
-  }
+  },
+  "includes": [
+    "types/**/*",
+    "lib/**/*"
+  ]
 }
