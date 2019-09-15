@@ -1,5 +1,7 @@
 import Icon from './icon/icon';
 import React from 'react';
 import ReactDOM from 'react-dom';
-
-ReactDOM.render(<Icon name='zzw' onClick={() => console.log(123)}/>, document.getElementById('root'));
+const fn = (e: React.MouseEvent<SVGElement | SVGUseElement>) => {
+  console.log((e.target as SVGUseElement).href)
+}
+ReactDOM.render(<Icon name='zzw' onClick={(e) => fn(e)}/>, document.getElementById('root'));
