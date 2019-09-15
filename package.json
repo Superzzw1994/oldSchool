@@ -1,7 +1,8 @@
 {
   "name": "oldSchool",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "",
+  "files": ["./dist/**/*"],
   "main": "dist/lib/index.js",
   "types": "dist/lib/index.js",
   "scripts": {
@@ -15,7 +16,7 @@
     "url": "git+https://github.com/Superzzw1994/oldSchool.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "evilgenius_zzw",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Superzzw1994/oldSchool/issues"
