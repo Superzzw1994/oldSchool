@@ -3,10 +3,12 @@ import './importAllIcons';
 import './index.scss';
 interface IconProps {
   name: string;
+  onClick ?: React.MouseEventHandler<SVGElement>;
 }
 const Icon : React.FunctionComponent<IconProps> = (props) => {
-  return <svg className='oldschool_icon'>
-          <use xlinkHref={`#${props.name}`}></use>
+  const { name, onClick } = props
+  return <svg className='oldschool_icon' onClick={onClick}>
+          <use xlinkHref={`#${name}`}></use>
         </svg>
 }
 
