@@ -1,3 +1,3 @@
 #!/bin/env bash
-npm version $version && \
+npm version $1 && \
 git push
