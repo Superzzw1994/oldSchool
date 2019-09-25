@@ -1,1 +1,2 @@
-# oldSchool
+[![CircleCI](https://circleci.com/gh/Superzzw1994/oldSchool.svg?style=svg)](https://circleci.com/gh/Superzzw1994/oldSchool)
+[![npm version](https://badge.fury.io/js/underbrella.svg)](https://badge.fury.io/js/underbrella)
